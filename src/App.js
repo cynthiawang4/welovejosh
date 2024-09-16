@@ -24,7 +24,6 @@ function App() {
       <p>
         Savannah Han
       </p>
-      <p><strong>Nathan Chow</strong></p>
     </div>
   );
 }
