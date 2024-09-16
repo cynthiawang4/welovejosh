@@ -3,6 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1>
+        QUEEN's BOARD GAME CLUB THURSDAY 7-10pm KINGSTON 208/209/210 COME
+      </h1>
       <p>
         322 group project thumbs up emoji
       </p>
