@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>QUEEN'S BOARD GAME CLUB THURSDAY 7-10pm KINGSTON 208/209/210 COME</h1>
+      <h1>WE LOVE JOSH</h1>
       <h1>322 group project thumbs up emoji</h1>
       <img src="https://media.tenor.com/lCKwsD2OW1kAAAAi/happy-cat-happy-happy-cat.gif" alt="happy cat gif"></img>
       <p><strong>Cynthia Wang</strong> Group Leader</p>
@@ -12,7 +12,7 @@ function App() {
       <img src="https://media1.tenor.com/images/dee2f9f29572393e39e886ffab9c18ec/tenor.gif?itemid=11663195" alt="Kristen"></img>
       <p><strong>Kristen Lee</strong> Group Presenter</p>
       <img src="https://www.icegif.com/wp-content/uploads/icegif-342.gif" alt="eepy cat in bowl"></img>
-      <p>Amanda Li</p>
+      <p><strong>Amanda Li</strong> Group Member</p>
       <img src="https://media.tenor.com/-VGV5Bo7CCcAAAAM/cat-attack-cat-tiktok.gif" alt="angy cat"></img>
       <p><strong>Nathan Chow</strong> Group Member</p>
       <img src="https://media.tenor.com/kDSUi9rGACsAAAAM/cat-covering-ears-meme.gif" alt="mr fresh sad gif"></img>
