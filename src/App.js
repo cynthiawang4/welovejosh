@@ -3,9 +3,16 @@ import Profile from "./components/Profile";
 
 function App() {
   return (
-    <div className="App">
+    <div class="app">
       <h1>WE LOVE JOSH</h1>
-      <h1>322 group project thumbs up emoji</h1>
+      <p>Welcome to the homepage of Group 21's project for CISC 322.<br />
+        This project is focused on recovering the conceptual and concrete architecture<br />
+        and proposing an enhancement for program ScummVM and game engine SCI.</p>
+      <h2>Assignments</h2>
+        <a class="assignment" href="public\21welovejosh_A1_Report.pdf" target="_blank">A1 Report</a>
+        <a class="assignment" href="https://www.youtube.com/watch?v=FWSPBfmtl_c" target="_blank">A1 Presentation</a>
+        <p>A2 and A3 coming soon.</p>
+      <h2>Group Members</h2>
       <div class="profilecontainer">
         <Profile
           gif="https://media.tenor.com/lCKwsD2OW1kAAAAi/happy-cat-happy-happy-cat.gif"
@@ -56,6 +63,11 @@ function App() {
           github="https://github.com/Savannah-Han13/"
         />
       </div>
+      <h2>Documentation</h2>
+        <a href="https://docs.scummvm.org/" target="_blank">ScummVM Documentation</a><br />
+        <a href="https://wiki.scummvm.org/" target="_blank">ScummVM Wiki</a><br />
+        <a href="https://scicompanion.com/Documentation/" target="_blank">SCI Documentation</a><br />
+        <br /><br />
     </div>
   );
 }

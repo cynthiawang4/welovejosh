@@ -1,9 +1,14 @@
-.App {
+.app {
   text-align: center;
+}
+
+.assignment {
+  margin: 1em;
 }
 
 .profilecontainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
