@@ -9,7 +9,7 @@ function App() {
         This project is focused on recovering the conceptual and concrete architecture<br />
         and proposing an enhancement for program ScummVM and game engine SCI.</p>
       <h2>Assignments</h2>
-        <a class="assignment" href="public\21welovejosh_A1_Report.pdf" target="_blank">A1 Report</a>
+        <a class="assignment" href="/reports/21welovejosh_A1_Report.pdf" target="_blank">A1 Report</a>
         <a class="assignment" href="https://www.youtube.com/watch?v=FWSPBfmtl_c" target="_blank">A1 Presentation</a>
         <p>A2 and A3 coming soon.</p>
       <h2>Group Members</h2>
