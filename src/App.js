@@ -1,18 +1,41 @@
 import "./App.css";
 import Profile from "./components/Profile";
+import "@fontsource/montserrat";
+import "@fontsource/playfair-display";
 
 function App() {
   return (
     <div class="app">
-      <h1>WE LOVE JOSH</h1>
-      <p>Welcome to the homepage of Group 21's project for CISC 322.<br />
-        This project is focused on recovering the conceptual and concrete architecture<br />
-        and proposing an enhancement for program ScummVM and game engine SCI.</p>
-      <h2>Assignments</h2>
-        <a class="assignment" href="/reports/21welovejosh_A1_Report.pdf" target="_blank">A1 Report</a>
-        <a class="assignment" href="https://www.youtube.com/watch?v=FWSPBfmtl_c" target="_blank">A1 Presentation</a>
-        <p>A2 and A3 coming soon.</p>
-      <h2>Group Members</h2>
+      <div class="header">
+        <h1 class="h1">WE LOVE JOSH</h1>
+      </div>
+      <div class="description">
+        <p class="p">Welcome to the homepage of Group 21's project for CISC 322.<br />
+          This project is focused on recovering the conceptual and concrete architecture<br />
+          and proposing an enhancement for program ScummVM and game engine SCI.</p>
+      </div>
+      <div class="subheader">
+        <h2 class="h2">Assignments</h2>
+      </div>
+      <div class="assignmentcontainer">
+        <div class="a1square">
+          <p class="p">A1</p>
+          <a class="a" href="/reports/21welovejosh_A1_Report.pdf" target="_blank" rel="noopener noreferrer">A1 Report</a><br />
+          <a class="a" href="https://www.youtube.com/watch?v=FWSPBfmtl_c" target="_blank" rel="noopener noreferrer">A1 Presentation</a>
+        </div>
+        <div class="a2square">
+          <p class="p">A2</p>
+          <a class="a" href="/reports/21welovejosh_A2_Report.pdf" target="_blank" rel="noopener noreferrer">A2 Report</a><br />
+          <a class="a" href="https://www.youtube.com/watch?v=x5I38w09E4Y" target="_blank" rel="noopener noreferrer">A2 Presentation</a>
+        </div>
+        <div class="a3square">
+          <p class="p">A3</p>
+          <p class="a">A3 coming soon.</p>
+        </div>        
+      </div>
+      <div class="subheader">
+        <h2 class="h2">Group Members</h2>
+      </div>
       <div class="profilecontainer">
         <Profile
           gif="https://media.tenor.com/lCKwsD2OW1kAAAAi/happy-cat-happy-happy-cat.gif"
@@ -63,10 +86,13 @@ function App() {
           github="https://github.com/Savannah-Han13/"
         />
       </div>
-      <h2>Documentation</h2>
-        <a href="https://docs.scummvm.org/" target="_blank">ScummVM Documentation</a><br />
-        <a href="https://wiki.scummvm.org/" target="_blank">ScummVM Wiki</a><br />
-        <a href="https://scicompanion.com/Documentation/" target="_blank">SCI Documentation</a><br />
+      <div class="subheader">
+        <h2 class="h2">Documentation</h2>
+      </div>
+        <a href="https://docs.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Documentation</a><br />
+        <a href="https://github.com/scummvm/scummvm" target="_blank" rel="noopener noreferrer">ScummVM GitHub</a><br />
+        <a href="https://wiki.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Wiki</a><br />
+        <a href="https://scicompanion.com/Documentation/" target="_blank" rel="noopener noreferrer">SCI Documentation</a><br />
         <br /><br />
     </div>
   );
