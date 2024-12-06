@@ -18,9 +18,9 @@
   align-self: center;
   background-color: #0b7743;
   display: flex;
+  height: fit-content;
   margin: 2rem;
   padding: 0.5rem 2rem;
-  height: fit-content;
   width: fit-content;
 }
 
@@ -37,34 +37,35 @@
 .assignmentcontainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .a1square {
   background-color: #0e9453;
   border-radius: 15%;
-  height: 12rem;
-  width: 12rem;
-  margin: 1rem;
+  height: 10rem;
+  margin: 1rem 1rem 2rem 1rem;
   padding: 1rem;
+  width: 12rem;
 }
 
 .a2square {
   background-color: #0b7743;
   border-radius: 15%;
-  height: 12rem;
-  width: 12rem;
-  margin: 1rem;
+  height: 10rem;
+  margin: 1rem 1rem 2rem 1rem;
   padding: 1rem;
+  width: 12rem;
 }
 
 .a3square {
   background-color: #085630;
   border-radius: 15%;
-  height: 12rem;
-  width: 12rem;
-  margin: 1rem;
+  height: 10rem;
+  margin: 1rem 1rem 2rem 1rem;
   padding: 1rem;
+  width: 12rem;
 }
 
 .profilecontainer {
@@ -72,6 +73,30 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.docucontainer {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.docu1 {
+  background-color: #0e9453;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+}
+
+.docu2 {
+  background-color: #0b7743;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
 }
 
 .h1 {
@@ -87,11 +112,11 @@
 }
 
 .p {
-  font: 1.5rem "Montserrat";
   color: white;
+  font: 1.5rem "Montserrat";
 }
 
 .a {
-  font: 1rem "Montserrat";
   color: white;
+  font: 1rem "Montserrat";
 }

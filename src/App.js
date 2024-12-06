@@ -30,7 +30,8 @@ function App() {
         </div>
         <div class="a3square">
           <p class="p">A3</p>
-          <p class="a">A3 coming soon.</p>
+          <a class="a" href="/reports/21welovejosh_A3_Report.pdf" target="_blank" rel="noopener noreferrer">A3 Report</a><br />
+          <a class="a" href="https://www.youtube.com/watch?v=LZSIUQ5Yd0c" target="_blank" rel="noopener noreferrer">A3 Presentation</a>
         </div>        
       </div>
       <div class="subheader">
@@ -89,10 +90,20 @@ function App() {
       <div class="subheader">
         <h2 class="h2">Documentation</h2>
       </div>
-        <a href="https://docs.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Documentation</a><br />
-        <a href="https://github.com/scummvm/scummvm" target="_blank" rel="noopener noreferrer">ScummVM GitHub</a><br />
-        <a href="https://wiki.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Wiki</a><br />
-        <a href="https://scicompanion.com/Documentation/" target="_blank" rel="noopener noreferrer">SCI Documentation</a><br />
+      <div class="docucontainer">
+        <div class="docu1">
+          <a class="a" href="https://docs.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Documentation</a><br />
+        </div>
+        <div class="docu2">
+          <a class="a" href="https://github.com/scummvm/scummvm" target="_blank" rel="noopener noreferrer">ScummVM GitHub</a><br />
+        </div>
+        <div class="docu2">
+          <a class="a" href="https://scicompanion.com/Documentation/" target="_blank" rel="noopener noreferrer">SCI Documentation</a><br />
+        </div>
+        <div class="docu1">
+          <a class="a" href="https://wiki.scummvm.org/" target="_blank" rel="noopener noreferrer">ScummVM Wiki</a><br />
+        </div>
+      </div>
         <br /><br />
     </div>
   );
